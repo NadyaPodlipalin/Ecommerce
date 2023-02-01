@@ -5,7 +5,7 @@ import FooterMenuItem from './FooterMenuItem';
 const Legals = () => {
     return (
         <StyledLegals>
-            <StyledGroupName>Products</StyledGroupName>
+            <StyledGroupName>Legals</StyledGroupName>
             <ul style={{ padding: 0 }}>
                 {legals.map((item, index) => <FooterMenuItem key={index} item={item} />)}
             </ul>

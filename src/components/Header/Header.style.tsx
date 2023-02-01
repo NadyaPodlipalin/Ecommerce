@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import TextField from '@mui/material/TextField';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBagOutlined';
+import { Link } from "react-router-dom";
 
 export const StyledHeader = styled.header`
 background-color: rgba(23, 24, 31, 1);
@@ -15,8 +16,18 @@ export const StyledLeft = styled.div`
 display: flex;
     align-items: center;
 `
-export const StyledH1 = styled.h1`
-margin: 0 25px 0 30px;
+export const StyledLink = styled(Link)`
+    all: unset;
+    cursor: pointer;
+    margin: 0 25px 0 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
 `
 export const StyledRight = styled.div`
 height: 100%;

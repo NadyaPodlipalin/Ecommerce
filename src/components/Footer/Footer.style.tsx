@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const StyledFooter = styled.div`
@@ -14,8 +15,10 @@ export const StyledUpperFooter = styled.div`
     flex-direction: row;
     position: relative;
 `
-export const StyledLogo = styled.div`
- font-style: normal;
+export const StyledLink = styled(Link)`
+    all: unset;
+    cursor: pointer;
+    font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 30px;
@@ -29,6 +32,22 @@ export const StyledLogo = styled.div`
     left: 155px;
     top: 60px;
 `
+export const StyledLogo = styled.div`
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    width: 66px;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 155px;
+    top: 60px;
+`
+
 export const StyledLowerFooter = styled.div`
  height: 110px;
     width: 100%;

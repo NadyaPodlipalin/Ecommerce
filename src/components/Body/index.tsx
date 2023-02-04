@@ -1,4 +1,4 @@
-import Routing from '../Routing'
+import Routing from '../Routing/Routing'
 
 const Body = () => {
     return (

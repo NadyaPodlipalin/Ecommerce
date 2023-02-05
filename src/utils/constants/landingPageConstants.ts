@@ -1,22 +1,22 @@
-import pic1 from '../img/LandingPageImg/NewArrivalImg/picture1.png';
-import pic2 from '../img/LandingPageImg/NewArrivalImg/picture2.png';
-import pic3 from '../img/LandingPageImg/NewArrivalImg/picture3.png';
-import pic4 from '../img/LandingPageImg/NewArrivalImg/picture4.png';
-import pic5 from '../img/LandingPageImg/NewArrivalImg/picture5.png';
-import pic6 from '../img/LandingPageImg/NewArrivalImg/picture6.png';
-import pic7 from '../img/LandingPageImg/NewArrivalImg/picture7.png';
-import pic8 from '../img/LandingPageImg/NewArrivalImg/picture8.png';
-import pic9 from '../img/LandingPageImg/NewArrivalImg/picture9.png';
-import pic10 from '../img/LandingPageImg/NewArrivalImg/picture10.png';
-import pic11 from '../img/LandingPageImg/NewArrivalImg/picture11.png';
-import pic12 from '../img/LandingPageImg/NewArrivalImg/picture12.png';
+import pic1 from '../../img/LandingPageImg/NewArrivalImg/picture1.png';
+import pic2 from '../../img/LandingPageImg/NewArrivalImg/picture2.png';
+import pic3 from '../../img/LandingPageImg/NewArrivalImg/picture3.png';
+import pic4 from '../../img/LandingPageImg/NewArrivalImg/picture4.png';
+import pic5 from '../../img/LandingPageImg/NewArrivalImg/picture5.png';
+import pic6 from '../../img/LandingPageImg/NewArrivalImg/picture6.png';
+import pic7 from '../../img/LandingPageImg/NewArrivalImg/picture7.png';
+import pic8 from '../../img/LandingPageImg/NewArrivalImg/picture8.png';
+import pic9 from '../../img/LandingPageImg/NewArrivalImg/picture9.png';
+import pic10 from '../../img/LandingPageImg/NewArrivalImg/picture10.png';
+import pic11 from '../../img/LandingPageImg/NewArrivalImg/picture11.png';
+import pic12 from '../../img/LandingPageImg/NewArrivalImg/picture12.png';
 import { Card } from '../types';
 
-import categoryP1 from '../img/LandingPageImg/CategoriesImg/right1.png'
-import categoryP2 from '../img/LandingPageImg/CategoriesImg/right2.png'
-import categoryP3 from '../img/LandingPageImg/CategoriesImg/right3.png'
-import categoryP4 from '../img/LandingPageImg/CategoriesImg/right4.png'
-import categoryLeft from '../img/LandingPageImg/CategoriesImg/left.png'
+import categoryP1 from '../../img/LandingPageImg/CategoriesImg/right1.png'
+import categoryP2 from '../../img/LandingPageImg/CategoriesImg/right2.png'
+import categoryP3 from '../../img/LandingPageImg/CategoriesImg/right3.png'
+import categoryP4 from '../../img/LandingPageImg/CategoriesImg/right4.png'
+import categoryLeft from '../../img/LandingPageImg/CategoriesImg/left.png'
 
 export const catLeft = {
     img: categoryLeft,

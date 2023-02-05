@@ -1,8 +1,20 @@
-import React from 'react'
+import Subscription from '../Subscription'
+import Banner from './Banner'
+import Blog from './Blog'
+import Categories from './Categories'
+import { StyledLandingPage } from './Landing.style'
+import NewArrivals from './NewArrivals'
+
 
 const LandingPage = () => {
     return (
-        <div>LandingPage</div>
+        <StyledLandingPage>
+            <Banner />
+            <NewArrivals />
+            <Categories />
+            <Blog />
+            <Subscription />
+        </StyledLandingPage>
     )
 }
 

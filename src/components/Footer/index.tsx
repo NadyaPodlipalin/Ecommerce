@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <StyledFooter >
       <StyledUpperFooter>
-        <StyledLink to='/'>
+        <StyledLink to='/landingPage'>
           LOGO
         </StyledLink>
         <Products />

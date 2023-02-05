@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 export const StyledLayout = styled.div`
-    display: flex;
-    justify-content: flex-start;
+display: block;
+   
 `
 export const StyledNavLink = styled(NavLink)`
 all: unset;
@@ -18,4 +18,6 @@ display: flex;
 align-items: center;
 letter-spacing: -0.3px;
 color: rgba(0, 0, 0, 0.3);
+width: fit-content;
+height: fit-content;
 `

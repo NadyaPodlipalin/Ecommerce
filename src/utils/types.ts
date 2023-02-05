@@ -14,3 +14,11 @@ export interface SidebarMenu {
     name: string,
     items: string[],
 }
+export interface MainMenu {
+    name: string,
+    payload: Array<{}>
+}
+export interface BlogArticle {
+    img: string,
+    text: string
+}

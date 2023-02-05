@@ -1,9 +1,9 @@
-import Routing from '../Routing/Routing'
+import { GlobalRouting } from '../Routing/Routing'
 
 const Body = () => {
     return (
         <div>
-            <Routing />
+            <GlobalRouting />
         </div>
     )
 }

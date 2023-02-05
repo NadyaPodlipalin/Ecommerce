@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <StyledHeader>
       <StyledLeft>
-        <StyledLink to="/">LOGO</StyledLink>
+        <StyledLink to="/landingPage">LOGO</StyledLink>
         <Navigation />
       </StyledLeft>
       <StyledRight>

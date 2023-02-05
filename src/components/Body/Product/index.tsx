@@ -1,9 +1,13 @@
-import React from 'react'
+import Subscription from "../Subscription"
+import ProductsPage from "./ProductsPage"
 
-const Product = () => {
+const Products = () => {
     return (
-        <div>Product</div>
+        <div>
+            <ProductsPage />
+            <Subscription />
+        </div>
     )
 }
 
-export default Product
+export default Products

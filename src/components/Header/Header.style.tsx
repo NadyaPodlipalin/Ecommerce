@@ -2,6 +2,7 @@ import styled from "styled-components";
 import TextField from '@mui/material/TextField';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBagOutlined';
 import { Link } from "react-router-dom";
+import { Button } from "@mui/material";
 
 export const StyledHeader = styled.header`
 background-color: rgba(23, 24, 31, 1);
@@ -53,4 +54,33 @@ export const StyledList = styled.p`
     margin: 0;
     margin-left: 30px;
     padding: 0;
+`
+
+export const DropdownContent = styled.div`
+    display: none;
+    position: absolute;
+    background-color: #dfd9d9;
+    padding-left: 10px;
+    z-index: 1;   
+    
+`
+export const StyledMainMenuItem = styled.p`
+color: black;
+    &:hover{
+        background-color: rgb(128, 128, 128,0.1 );
+    }
+`
+export const StyledButton = styled.p`
+        border: 1px solid black;
+        width: fit-content;
+        display: inline-block;
+`
+export const Dropdown = styled.div`
+    position: relative;
+    display: inline-block;  
+        &:hover {
+            & ${DropdownContent} {
+                display: block;
+  }
+}
 `

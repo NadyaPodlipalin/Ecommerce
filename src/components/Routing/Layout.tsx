@@ -1,14 +1,11 @@
 import { Outlet } from 'react-router-dom'
+import { routerLinks } from '../../utils/constants/routingConstants'
 import { StyledLayout, StyledNavLink } from './Layout.style'
 
 const Layout = () => {
     return (
         <StyledLayout>
-            <StyledNavLink to="/">LandingPage</StyledNavLink>
-            <StyledNavLink to="/product">Product</StyledNavLink>
-            <StyledNavLink to="/productPage">ProductPage</StyledNavLink>
-            <StyledNavLink to="/cart">Cart</StyledNavLink>
-            <StyledNavLink to="/profile">Profile</StyledNavLink>
+            {routerLinks.map((item, index) => <StyledNavLink key={index} to={item.path}>{item.name}</StyledNavLink>)}
             <Outlet />
         </StyledLayout>
     )

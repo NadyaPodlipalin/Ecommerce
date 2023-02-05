@@ -11,7 +11,7 @@ const Blog = () => {
             <StyledRoute>Main / Blog</StyledRoute>
             <MainArticle />
             <StyledArticleBlock>
-                {blogArticles.map((item, index) => <Article item={item} key={index} />)}
+                {blogArticles.map((item, index) => <Article item={item} position={index + 1} key={index} />)}
                 <StyledPagination count={20} />
             </StyledArticleBlock>
         </StyledBlog>

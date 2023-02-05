@@ -133,6 +133,25 @@ export const StyledBlogSectionText = styled.p`
     line-height: 34px;
     letter-spacing: -0.8px;
 `
+export const StyledArticleWithoutImage = styled.div`
+    width: 410px;
+    height: 540px;
+    box-sizing: border-box;
+    margin-right: 30px;
+    border-radius: 10px;
+    margin-top: 48px;
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -1.6px;
+    color: #000000;
+    padding: 64px 20px;
+    background-color: #F1F4FA;
+    border-radius: 10px;;
+`
 export const StyledPagination = styled(Pagination)`
     margin:  20px auto 98px 475px;
     

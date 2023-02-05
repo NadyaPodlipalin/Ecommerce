@@ -18,7 +18,11 @@ const blog = {
     path: 'blog',
     name: 'Blog'
 };
+const article = {
+    path: 'blog/article',
+    name: 'Article Name'
+};
 
 
 
-export const routerLinks = [landingPage, product, cart, profile, blog];
+export const routerLinks = [landingPage, product, cart, profile, blog, article];

@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import Blog from '../Body/Blog'
+import ArticlePage from '../Body/Blog/ArticlePage'
 import Cart from '../Body/Cart'
 import Checkout from '../Body/Cart/Checkout'
 import LandingPage from '../Body/LandingPage'
@@ -24,7 +25,10 @@ export const GlobalRouting = () => {
                         <Route path="checkout" element={<Checkout />} />
                     </Route>
                     <Route path="profile" element={<Profile />} />
-                    <Route path="blog" element={<Blog />} />
+                    <Route path="blog">
+                        <Route index element={<Blog />} />
+                        <Route path="article" element={<ArticlePage />} />
+                    </Route>
                     <Route path="*" element={<NotFound />} />
                 </Route>
             </Routes>

@@ -1,4 +1,3 @@
-import React from 'react'
 import { blogArticles } from '../../../utils/constants/blogConstants'
 import { StyledRoute } from '../Product/Product.style'
 import Article from './Article'

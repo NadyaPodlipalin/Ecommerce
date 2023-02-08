@@ -1,5 +1,5 @@
 import { MainMenu } from '../../utils/types';
-import { DropdownContent, Dropdown, StyledButton, StyledList, StyledMainMenuItem } from './Header.style';
+import { Dropdown, DropdownContent, StyledButton, StyledList, StyledMainMenuItem } from './Header.style';
 
 interface Props {
   item: MainMenu;
@@ -11,7 +11,9 @@ const HeaderMenuItem = ({ item }: Props) => {
       <Dropdown>
         <StyledButton>{item.name}</StyledButton>
         <DropdownContent>
-          {item.payload.map((i, index: number) => <StyledMainMenuItem key={index}>menuItem</StyledMainMenuItem>)}
+          {item.payload.map((item, index: number) => <StyledMainMenuItem key={index}>
+            {item.name}
+          </StyledMainMenuItem>)}
         </DropdownContent>
       </Dropdown >
     </StyledList>

@@ -148,3 +148,28 @@ export const StyledItem = styled.p`
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 16px;
 `
+export const StyledReturns = styled.div`
+  width: 850px;
+  margin: auto;
+`
+export const StyledReturnsHeading = styled.p`
+    margin: 40px auto 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: -3px;
+    color: #000000;
+`
+export const StyledReturnsParagraph = styled.p`
+  margin-bottom: 98px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    letter-spacing: -0.8px;
+    color: rgba(0, 0, 0, 0.8);
+`

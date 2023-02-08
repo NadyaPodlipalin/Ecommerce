@@ -162,7 +162,7 @@ export const StyledArticlePage = styled.div`
     margin: auto;
 `
 export const StyledArticleHeading = styled.p`
-    margin: 94px auto 116px;
+    margin: 94px auto 0px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -210,5 +210,26 @@ export const StyledArticleDiv = styled.div`
     margin: 50px auto 48px;
     display: flex;
     justify-content: space-between;
+`
+export const StyledIconDateArticle = styled(AccessTimeIcon)`
+    display: inline;
+    margin-right: 10px;
     
+`
+export const StyledDateArticle = styled.div`
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -0.3px;
+    color: rgba(0, 0, 0, 0.6);
+`
+export const ArticleDate = styled.div`
+    display: flex;
+    margin: 40px 0 56px;
+    justify-content: center;
+    align-items: center;
 `

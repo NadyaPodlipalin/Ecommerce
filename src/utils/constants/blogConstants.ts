@@ -11,27 +11,33 @@ export const blogRightSection = ['Join us at the Westchester in white plains, NY
 export const blogArticles: Array<BlogArticle> = [
     {
         img: article1,
-        text: 'Why our Training Club?'
+        shortText: 'Why our Training Club?',
+        longText: 'Article 1'
     },
     {
         img: article2,
-        text: '17 Tips for Becoming Sportsmen'
+        shortText: '17 Tips for Becoming Sportsmen',
+        longText: 'Article 2'
     },
     {
         img: article3,
-        text: 'For Wherever and Whenever You Want To Train'
+        shortText: 'For Wherever and Whenever You Want To Train',
+        longText: 'Article 3'
     },
 
     {
         img: '',
-        text: 'Reach Your Fitness Goals with the our Training Club App (NTC). '
+        shortText: 'Reach Your Fitness Goals with the our Training Club App (NTC). ',
+        longText: 'Article 4'
     },
     {
         img: article5,
-        text: 'Workout From Home Routines: Tips and Best Practices'
+        shortText: 'Workout From Home Routines: Tips and Best Practices',
+        longText: 'Article 5'
     },
     {
         img: article6,
-        text: 'Train The Way You Want: Energise Your Routine with our Growing Library of Workout'
+        shortText: 'Train The Way You Want: Energise Your Routine with our Growing Library of Workout',
+        longText: 'Article 6'
     },
 ]

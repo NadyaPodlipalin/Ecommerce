@@ -7,6 +7,7 @@ import LandingPage from '../Body/LandingPage'
 import Product from '../Body/Product'
 import ProductPage from '../Body/ProductPage'
 import Profile from '../Body/Profile'
+import GetHelpReturns from '../Footer/GetHelpReturns'
 import NotFound from '../NotFound'
 import Layout from './Layout'
 
@@ -15,6 +16,7 @@ export const GlobalRouting = () => {
         <div>
             <Routes>
                 <Route path="/" element={<Layout />}>
+                    <Route path="returns" element={<GetHelpReturns />} />
                     <Route path="landingPage" element={<LandingPage />} />
                     <Route path="product">
                         <Route index element={<Product />} />

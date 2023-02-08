@@ -1,18 +1,18 @@
-import { MainMenu } from "../types";
+import { Brands, Collections, MainMenu, Women } from "../types";
 
-export const womenMenuCollectionsBrands = [`Akris`, `Alice + Olivia`, `Brunello Cucinelli`, `CHANEL`, `Dolce & Gabbana`, `Eileen Fisher`, `Giorgio Armani`, `Gucci`, `Johnny Was`, `Lafayette 148 New York`, `Theory`];
-export const womenMenuCollections: Array<MainMenu> = [
+export const womenMenuCollectionsBrands: Brands = [`Akris`, `Alice + Olivia`, `Brunello Cucinelli`, `CHANEL`, `Dolce & Gabbana`, `Eileen Fisher`, `Giorgio Armani`, `Gucci`, `Johnny Was`, `Lafayette 148 New York`, `Theory`];
+export const womenMenuCollections: Array<Collections> = [
     {
         name: `Our Favorites`,
-        payload: [{}]
+        payload: []
     },
     {
         name: `New Arrivals`,
-        payload: [{}]
+        payload: []
     },
     {
         name: `New Collections`,
-        payload: [{}]
+        payload: []
     },
     {
         name: `Brands`,
@@ -20,27 +20,27 @@ export const womenMenuCollections: Array<MainMenu> = [
     },
     {
         name: `Trends`,
-        payload: [{}]
+        payload: []
     },
     {
         name: `New Names at Neiman's`,
-        payload: [{}]
+        payload: []
     },
     {
         name: `Luxe Essentials`,
-        payload: [{}]
+        payload: []
     },
     {
         name: `Exclusives`,
-        payload: [{}]
+        payload: []
     }
 ]
 
 
-export const womenMenu: Array<MainMenu> = [
+export const womenMenu: Array<Women> = [
     {
         name: `All`,
-        payload: [{}]
+        payload: []
     },
     {
         name: `Collections`,
@@ -48,43 +48,43 @@ export const womenMenu: Array<MainMenu> = [
     },
     {
         name: `Coats & Jackets`,
-        payload: [{}]
+        payload: []
     },
     {
         name: `Dresses`,
-        payload: [{}]
+        payload: []
     },
     {
         name: `Pants`,
-        payload: [{}]
+        payload: []
     },
     {
         name: `Jumpsuits & Rompers`,
-        payload: [{}]
+        payload: []
     },
     {
         name: `Shorts`,
-        payload: [{}]
+        payload: []
     },
     {
         name: `Skirts`,
-        payload: [{}]
+        payload: []
     },
     {
         name: `Sweaters`,
-        payload: [{}]
+        payload: []
     },
     {
         name: `Swimwear`,
-        payload: [{}]
+        payload: []
     },
     {
         name: `Tops`,
-        payload: [{}]
+        payload: []
     },
     {
         name: `Shoes`,
-        payload: [{}]
+        payload: []
     },
 
 ]
@@ -92,7 +92,7 @@ export const womenMenu: Array<MainMenu> = [
 export const headerMenu: Array<MainMenu> = [
     {
         name: `Men`,
-        payload: [{}]
+        payload: []
     },
     {
         name: `Women`,
@@ -100,14 +100,14 @@ export const headerMenu: Array<MainMenu> = [
     },
     {
         name: `Kids`,
-        payload: [{}]
+        payload: []
     },
     {
         name: `Sale`,
-        payload: [{}]
+        payload: []
     },
     {
         name: `Collection`,
-        payload: [{}]
+        payload: []
     },
 ]

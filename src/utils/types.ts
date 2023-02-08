@@ -14,11 +14,23 @@ export interface SidebarMenu {
     name: string,
     items: string[],
 }
-export interface MainMenu {
-    name: string,
-    payload: Array<{}>
-}
+
 export interface BlogArticle {
     img: string,
-    text: string
+    shortText: string,
+    longText: string
+}
+export type Brands = Array<string>;
+
+export interface Collections {
+    name: string,
+    payload: Brands
+}
+export interface Women {
+    name: string,
+    payload: Array<Collections>
+}
+export interface MainMenu {
+    name: string,
+    payload: Array<Women>
 }
